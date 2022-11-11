@@ -1,0 +1,71 @@
+input, button {
+    font-size: .8rem;
+    height: 3.5rem;
+    width: 48%;
+    border: 1px solid;
+    background: transparent;
+    padding-left: .3rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border-radius: 4px;
+    margin: 15px 0px;
+}
+button {
+    height: 3.7rem;
+    padding-left: 0rem;
+    background: grey;
+    color: #fff;
+} 
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+input[type='checkbox'] {
+    height: 1rem;
+    width: 1rem;
+    margin-right: .7rem
+}
+
+label {
+    width: 90%;
+    text-align: left;
+}
+
+.add-method-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    padding: 5px 77px;
+}
+
+.list-container {
+    display: flex;
+    font-size: 18px;
+    background-color: #eee;
+    flex-direction: column;
+}
+
+.task-incomplete, .task-completed {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 25px 70px;
+    margin: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-completed {
+    background-color: #dedede;
+    text-decoration: line-through;
+}
+.remove-item {
+    text-align: right;
+    cursor: pointer;
+}
+
+h2 span {
+    margin-right: .5rem;
+}
